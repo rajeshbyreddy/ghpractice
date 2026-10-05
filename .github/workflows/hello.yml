@@ -11,7 +11,7 @@ jobs:
 
         steps:
             - name: Print my name
-              run: echo "Rajesh"
+              run: echo "hello Rajesh"
 
             - name: Print date
               run: date
