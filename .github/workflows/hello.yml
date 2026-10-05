@@ -1,0 +1,19 @@
+name: Hello workflow
+
+on:
+    push
+
+jobs:
+    hello-job:
+        runs-on : ubuntu-latest
+
+        steps:
+            - name: Print my name
+              run: echo "Rajesh"
+
+            - name: Print date
+              run: date
+
+            - name: Print host name
+              run: hostname
+              
